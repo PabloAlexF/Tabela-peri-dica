@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Josefin Sans';
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{  
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Estilo do "pulso" (a parte móvel da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background-color: #404040;
+  border-radius: 10px;
+}
+
+/* Estilo da trilha (a parte fixa da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+header{
+    background: #404040;
+    height: 100px;
+    font-family: 'Josefin Sans';
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.container-01{
+    display: flex;
+}
+
+#tm{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 837px;
+}
+
+
+.navegacao a{  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    font-family: 'Josefin Sans';
+}
+
+.navegacao a:hover{
+    transform: scale(0.95);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    height: 25px;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 826px;
+    background: #404040;
+    border-radius: 50px;
+    width: 200px;
+    
+}
+
+
+
+.h1tabela{
+    color: #404040;
+    margin-top:50px;
+    margin-left: 550px;
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+}
+
+
+table{
+    margin: 30px;
+    display: flex;
+    margin-top: 100px;
+
+}
+
+tr{
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+}
+
+
+.LA{
+    margin-left: 390px;
+    margin-top: 50px
+}
+
+
+#td1,#td2,#td3,#td4,#td5,#td6,#td7,#td8,#td9,#td10,#td11,#td12,#td13,#td14,#td15,#td16,#td17,#td18,#td19,#td20,#td21,#td22,#td23,#td24,#td25,#td26,#td27,#td28,#td29,#td30,#td31,#td32,#td33,#td34,#td35,#td36,#td37,#td38,#td39,#td40,#td41
+,#td42,#td43,#td44,#td45,#td46,#td47,#td48,#td49,#td50,#td51,#td52,#td53,#td54,#td55,#td56,#td57,#td58,#td59,#td60,#td61,#td62,#td63,#td64,#td65,#td66,#td67,#td68,#td69,#td70,#td71,#td72,#td73,#td74,#td75,#td76,#td77,#td78,#td79,#td80,#td81,#td82,#td83,#td84,#td85,#td86,#td87,#td88,#td89,#td90,#td91,#td92,#td93,#td94,#td95,#td96,#td97,#td98,#td99,#td100,#td101,#td102,#td102,#td103,#td104,#td105,#td106,#td107,#td108,#td109,#td110,#td111,#td112,#td112,#td113,#td114,#td115,#td116,#td117,#td118,#td119,#td120
+    {border: solid;
+    border-radius: 15px;}
+
+
+
+
+    /* CAIXINHAS */
+
+
+    .divpai{
+        justify-content: center;
+        margin-left: 300px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 30px;
+        width: 70%;
+    }
+
+    .divpai:hover{
+        transform: scale(0.95);
+      box-shadow: 0 4px 8px #663AB5;
+    }
+    .container-02{  
+        padding-left: 50px;
+        justify-content: center;
+        gap: 10px;
+        display: flex;
+    }
+
+    
+#box1{      
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #A1D344;
+}
+
+
+#box2{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #F1B200;
+
+}
+
+#box3{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #4DB6AC;
+}
+
+#box4{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #A2C7D3;
+}
+
+#box5{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #90E3E9;
+}
+
+/* 03 */
+
+.container-03{
+    
+    padding-left: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#box6{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #3D9EE3;
+}
+#box7{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #EADA00;
+}
+#box8{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #70CBEB;
+}
+#box9{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #EB8E8E;
+}
+#box10{
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    background: #DCADD6;
+}
